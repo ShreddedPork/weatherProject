@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+	font-family: alata;
+	color: white;
+}
+
+input[type="text"] {
+	background: transparent;
+	border: none;
+	padding-top: 2%;
+	border-bottom: 1px solid white;
+	outline: none;
+	font-family: alata;
+	font-size: larger;
+	color: white;
+	letter-spacing: 2px;
+}
+
+button {
+	font-family: alata;
+	background: transparent;
+	border-color: white;
+	border-style: solid;
+	color: white;
+	outline: none;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	margin-left: 3%;
+	align-items: center;
+}
